@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Mi formulario: reto 3</title>
+</head>
+
+<body>
+    <main class="container">
+        <form action="#">
+            <h1>Mi formulario</h1>
+            <input type="text" name="" id="" placeholder="Nombres" pattern="[A-Za-z]+" required>
+            <br>
+            <input type="text" name="" id="" placeholder="Apellidos" pattern="[A-Za-z]+" required>
+            <br>
+            <input type="number" name="age" id="age" placeholder="Edad" min="18" max="80" required>
+            <br>
+            <label for="sex">
+                Masculino <input type="radio" name="sex" required>
+                Femenino <input type="radio" name="sex" required>
+            </label>
+            <br>
+            <input type="text" name="dni" id="dni" pattern="[A-Za-z0-9]{8}" required placeholder="Dni">
+            <br>
+            <input type="email" name="email" id="email" required placeholder="Correo electronico">
+            <br>
+            <button class="enviar">Enviar</button>
+
+        </form>
+    </main>
+</body>
+
+</html>
