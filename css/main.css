@@ -1,0 +1,199 @@
+/*Globales*/
+
+
+/*------------------------------Banner ------------------------------------------------------------*/
+
+.container{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.banner{
+    position: relative;
+    width: 960px;
+    text-align: center;
+    background-color: black;
+
+}
+.container-foto{
+    
+    height: 500px
+}
+.foto{
+    width: 960px;
+    height: 100%;
+}
+.banner-titulo{
+    position: absolute;
+    left: 310px;
+    top: 50px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+}
+
+.banner-descripcion{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    width: 300px;
+    height: 100px;
+    background: rgba(114, 153, 254, 0.5);
+border-radius: 10px;
+}
+
+.banner-descripcion p{
+    padding-top: 15px;
+    color: white;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+}
+/*--------------------Fin Del Banner----------------------------------------------*/
+
+/*-------------------------------about-------------------------------------------------------*/
+
+.about{
+    background-color: #7299FE;
+    width: 960px;
+    height: 424px;
+    
+}
+
+.about-descripcion{
+    color: white;
+    width: 872px;
+    height: 318px;
+    padding-left: 46px;
+    margin-top: 30px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    
+}
+
+.boton-cv{   
+    width: 187px;
+    height: 62px;
+    margin-top: 20px;
+    outline: none;
+    background: #D16FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: Helvetica;
+    color: white;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*-------------------------------------Skill-----------------------------------------*/
+
+.skill{
+
+    background-color: #9122FF;
+    width: 960px;
+    height: 424px;
+    text-align: center;
+}
+
+.container-lenguaje{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.barra-blanca{
+    width: 80px;
+    height: 10px;
+    background-color: white;
+}
+
+.barra-azul{
+    width: 40px;
+    height: 10px;
+    background-color: blue;
+}
+
+/*-----------------------------------Contacto-----------------------------------------------------*/
+
+.contacto{
+    background-color: #1687A0;
+    width: 960px;
+    height: 500px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.form{
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+/*Imput propiedades------------------------------*/
+.input{
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    border: 1px solid #BFBFBF;
+    
+}
+/*psuedo clase*/
+
+input:valid{
+    border: 2px solid green;
+    outline: none;
+    
+    
+}
+
+input:focus:invalid{
+    border: 2px solid red;
+    outline: none;
+    
+}
+/*---------------------------------------------------------*/
+
+.textarea{
+    margin-top: 10px;
+    width: 420px;
+    border: 1px solid #BFBFBF;
+}
+
+textarea:valid{
+    border: 2px solid green;
+    outline: none;
+    
+}
+
+textarea:focus:invalid{
+    border: 2px solid red;
+    outline: none;
+    
+}
+
+.btn-enviar{
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+    background-color: #233451;
+    color: white;
+}
+/*-------------------------------Fin de la seccion contacto--------------------------------------*/
