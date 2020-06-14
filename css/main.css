@@ -65,6 +65,9 @@ border-radius: 10px;
     height: 424px;
     
 }
+.container-about{
+    margin: auto;
+}
 
 .about-descripcion{
     color: white;
@@ -106,6 +109,7 @@ border-radius: 10px;
 }
 
 .container-lenguaje{
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     width: 200px;
@@ -123,6 +127,39 @@ border-radius: 10px;
     width: 40px;
     height: 10px;
     background-color: blue;
+}
+
+/*----------------------------portafolio-----------------------------------------*/
+
+.portafolio{
+    background-color: yellow;
+    height: 300px;
+    text-align: center;
+    
+}
+
+.titulo-portafolio{
+    padding-top:30px;
+    margin-bottom: 30px;
+}
+
+.container-portafolio{
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    margin: auto;
+}
+
+.figure{
+    margin-right: 10px;
+}
+
+
+/*-----------------------------------------Clientes------------------------------*/
+
+
+.clientes{
+    background-color: #3F4E62;
 }
 
 /*-----------------------------------Contacto-----------------------------------------------------*/
