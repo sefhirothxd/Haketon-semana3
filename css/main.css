@@ -1,6 +1,22 @@
 /*Globales*/
 
+    h2{
+        text-align: center;
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        
+    }
 
+    h3{
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        color: white;
+        margin-bottom: 10px;
+    }
 /*------------------------------Banner ------------------------------------------------------------*/
 
 .container{
@@ -63,7 +79,12 @@ border-radius: 10px;
     background-color: #7299FE;
     width: 960px;
     height: 424px;
+    display: flex;
+    flex-direction: column;
     
+}
+.container-about{
+    margin: auto;
 }
 
 .about-descripcion{
@@ -102,28 +123,95 @@ border-radius: 10px;
     background-color: #9122FF;
     width: 960px;
     height: 424px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
+.title-skill{
+    margin-bottom: 30px;
+}
 .container-lenguaje{
     display: flex;
-    flex-wrap: wrap;
-    width: 200px;
+    width: 80%;
+    height: 60%;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 .barra-blanca{
-    width: 80px;
-    height: 10px;
+    width: 300px;
+    height: 20px;
     background-color: white;
+    border-radius: 10px;
 }
 
 .barra-azul{
-    width: 40px;
-    height: 10px;
-    background-color: blue;
+    width: 50%;
+    height: 20px;
+    background-color: #57EFF9;
+    border-radius: 10px;
 }
+
+.container-div{
+
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/*----------------------------portafolio-----------------------------------------*/
+
+.portafolio{
+    background-color: yellow;
+    height: 300px;
+    text-align: center;
+    
+}
+
+.titulo-portafolio{
+    padding-top:30px;
+    margin-bottom: 30px;
+}
+
+.container-portafolio{
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    margin: auto;
+}
+
+.figure{
+    margin-right: 10px;
+}
+
+
+/*-----------------------------------------Clientes------------------------------*/
+
+
+.clientes{
+    background-color: #3F4E62;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+}
+
+.title-cliente{
+    
+}
+
+.container-figure{
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /*-----------------------------------Contacto-----------------------------------------------------*/
 
@@ -132,13 +220,13 @@ border-radius: 10px;
     width: 960px;
     height: 500px;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
-    
-    
+    flex-direction: column;
 }
-
+.title-contacto{
+    margin-bottom: 30px;
+}
 .form{
     display: flex;
     width: 500px;
